@@ -84,3 +84,12 @@ ul {
   list-style: none;
   display: solid;
 }
+
+.footer {
+  font-family: "Oleo Script Swash Caps", cursive;
+  font-family: "PT Serif", serif;
+  font-size: 15px;
+  bottom: -52px;
+  position: relative;
+  right: -25px;
+}
