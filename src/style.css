@@ -28,6 +28,15 @@ h2 {
 
   position: relative;
 }
+h3 {
+  font-family: "Oleo Script Swash Caps", cursive;
+  font-family: "PT Serif", serif;
+  list-style: none;
+  text-align: center;
+  font-size: 17px;
+  top: 80px;
+  display: block;
+}
 
 .forecast {
   font-family: "Oleo Script Swash Caps", cursive;
@@ -78,15 +87,11 @@ button:hover {
 }
 
 ul {
-  font-size: 15px;
   font-family: "Oleo Script Swash Caps", cursive;
   font-family: "PT Serif", serif;
   text-align: center;
   font-size: 20px;
   list-style: none;
-  display: block;
-  top: 10px;
-  position: relative;
 }
 
 .footer {
