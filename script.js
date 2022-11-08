@@ -40,6 +40,12 @@ function displayWeatherCondition(response) {
   document.querySelector("#wind").innerHTML = Math.round(
     response.data.wind.speed
   );
+  document.querySelector("#precipitation").innerHTML = Math.round(
+    response.data.main.precipitation
+  );
+  document.querySelector("#humidity").innerHTML = Math.round(
+    response.data.main.humidity
+  );
 }
 
 //
