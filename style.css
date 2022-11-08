@@ -25,6 +25,8 @@ h2 {
   font-size: 90px;
   display: block;
   font-weight: bold;
+
+  position: relative;
 }
 
 .forecast {
@@ -71,7 +73,7 @@ button:hover {
   font-family: "PT Serif", serif;
   display: block;
   position: relative;
-  left: 80px;
+  left: 85px;
   bottom: 80px;
 }
 
@@ -82,7 +84,9 @@ ul {
   text-align: center;
   font-size: 20px;
   list-style: none;
-  display: solid;
+  display: block;
+  top: 10px;
+  position: relative;
 }
 
 .footer {
@@ -92,4 +96,11 @@ ul {
   bottom: -52px;
   position: relative;
   right: -25px;
+}
+
+img {
+  right: 20px;
+  bottom: 100px;
+  display: block;
+  cursor: auto;
 }
