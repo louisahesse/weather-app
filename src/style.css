@@ -2,12 +2,12 @@ body {
   background-image: url(https://images.pexels.com/photos/2931915/pexels-photo-2931915.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 600px 1060px;
+  background-size: 600px 978px;
   max-width: 600px;
   margin: 0 auto;
   border: solid;
 
-  padding: 60px 60px;
+  padding: 10px 10px;
 }
 
 h1 {
@@ -105,7 +105,7 @@ ul {
   font-family: "Oleo Script Swash Caps", cursive;
   font-family: "PT Serif", serif;
   font-size: 15px;
-  bottom: -52px;
+  bottom: -10px;
   position: relative;
   right: -15px;
 }
