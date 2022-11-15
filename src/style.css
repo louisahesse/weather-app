@@ -117,3 +117,21 @@ img {
   cursor: auto;
   position: relative;
 }
+
+.weather-forcast-date {
+  font-family: "Oleo Script Swash Caps", cursive;
+  font-family: "PT Serif", serif;
+  font-size: 16px;
+  opacity: 0.5;
+  color: black;
+}
+
+.weather-forcast-temperature-min {
+  opacity: 0.5;
+}
+
+.weather-forcast-temperature {
+  font-size: 13px;
+  font-family: "Oleo Script Swash Caps", cursive;
+  font-family: "PT Serif", serif;
+}
