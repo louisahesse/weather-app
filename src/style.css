@@ -40,11 +40,6 @@ h3 {
   position: relative;
 }
 
-.forecast {
-  font-family: "Oleo Script Swash Caps", cursive;
-  font-family: "PT Serif", serif;
-  display: block;
-}
 input {
   text-align: left;
   display: inline-block;
@@ -70,6 +65,18 @@ button:hover {
   opacity: 0.7;
   transition: all 200ms ease-in-out;
 }
+
+ul {
+  font-family: "Oleo Script Swash Caps", cursive;
+  font-family: "PT Serif", serif;
+  text-align: center;
+  font-size: 30px;
+  list-style: none;
+  position: relative;
+  display: block;
+  top: -90px;
+}
+
 .col {
   font-size: 25px;
   text-align: center;
@@ -90,32 +97,10 @@ button:hover {
   bottom: 100px;
 }
 
-ul {
+.weather-forecast {
   font-family: "Oleo Script Swash Caps", cursive;
   font-family: "PT Serif", serif;
-  text-align: center;
-  font-size: 30px;
-  list-style: none;
-  position: relative;
   display: block;
-  top: -90px;
-}
-
-.footer {
-  font-family: "Oleo Script Swash Caps", cursive;
-  font-family: "PT Serif", serif;
-  font-size: 15px;
-  bottom: -10px;
-  position: relative;
-  right: -15px;
-}
-
-img {
-  left: 70px;
-  bottom: -48px;
-  display: block;
-  cursor: auto;
-  position: relative;
 }
 
 .weather-forcast-date {
@@ -134,4 +119,12 @@ img {
   font-size: 13px;
   font-family: "Oleo Script Swash Caps", cursive;
   font-family: "PT Serif", serif;
+}
+.footer {
+  font-family: "Oleo Script Swash Caps", cursive;
+  font-family: "PT Serif", serif;
+  font-size: 15px;
+  bottom: -10px;
+  position: relative;
+  right: -15px;
 }
