@@ -67,7 +67,7 @@ li:first-letter {
   text-align: center;
   display: block;
   position: relative;
-  top: -70px;
+  top: -120px;
   font-family: "Oleo Script Swash Caps", cursive;
   font-family: "PT Serif", serif;
 }
@@ -89,7 +89,7 @@ li:first-letter {
   font-family: "PT Serif", serif;
   display: block;
   text-align: center;
-  top: 5px;
+  top: -50px;
   display: block;
   position: relative;
 }
@@ -101,10 +101,11 @@ li:first-letter {
   opacity: 0.5;
   color: black;
   text-align: center;
+  font-weight: bold;
 }
 
 .weather-forcast-temperature-min {
-  opacity: 0.5;
+  opacity: 1;
 }
 
 .weather-forcast-temperature {
@@ -115,8 +116,8 @@ li:first-letter {
 .footer {
   font-family: "Oleo Script Swash Caps", cursive;
   font-family: "PT Serif", serif;
-  font-size: 15px;
-  top: -30px;
+  font-size: 13px;
+  top: -80px;
   position: relative;
   right: -15px;
 }
@@ -138,7 +139,6 @@ li:first-letter {
 .card-title {
   font-size: 15px;
   top: -10px;
-
 }
 
 .card {
@@ -149,4 +149,17 @@ li:first-letter {
 
 .city-input {
   font-size: 10px;
+}
+
+.weather-image icon {
+  display: block;
+  position: relative;
+  left: 50px;
+}
+
+.weather-img {
+  position: relative;
+  display: block;
+  bottom: -10px;
+  left: 130px;
 }

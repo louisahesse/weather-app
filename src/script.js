@@ -24,11 +24,17 @@ function realTime(date) {
   return `${day} ${hours}:${minutes}`;
 }
 
+function formatDay(timestamp) {
+  let date = new Date(timestamp * 1000);
+  let day = date.getDay();
+  let days = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+
+  return days[day];
+}
+
 function displayForcast(response) {
   let forecast = response.data.daily;
   let forecastElement = document.querySelector("#forecast");
-
-
 
   let forecastHTML = `<div class="row">`;
   forecast.forEach(function (forecastDay, index) {
@@ -37,7 +43,7 @@ function displayForcast(response) {
         forecastHTML +
         `
       <div class="col-2">
-
+        <p>${formatDay(forecastDay.dt)}</p>
         <img
           src="http://openweathermap.org/img/wn/${
             forecastDay.weather[0].icon
