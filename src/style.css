@@ -103,13 +103,13 @@ li:first-letter {
   font-weight: bold;
 }
 
-.weather-forcast-temperature-min {
+.weather-forecast-temperature-min {
   opacity: 0.5;
-  color: grey;
+  color: rgb(34, 32, 32);
   font-weight: lighter;
 }
 
-.weather-forcast-temperature {
+.weather-forecast-temperature {
   font-size: 12px;
   font-family: "Oleo Script Swash Caps", cursive;
   font-family: "PT Serif", serif;
